@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 01_01_Claudia_01_response1_Link
+  m_EditorClassIdentifier: 
+  characterName: 'Claudia Messorina '
+  dialogue:
+  - "Hm... dann kannst du mir ja sagen, wie man die Verzierung auf dem Ortband nennt!
+    \n(Klicke <u> <link=\"https://www.google.de/\">hier</link> </u>, um die Seite
+    mit Informationen aufzurufen)\n"
+  responses: []
+  question:
+    answer: Tauschierung
+    dialogueObject: {fileID: 11400000, guid: ab18091c2b35fee44ae0c6360aeec136, type: 2}

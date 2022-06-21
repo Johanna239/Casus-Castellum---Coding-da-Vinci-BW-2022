@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 1_0_Fratto_01
+  m_EditorClassIdentifier: 
+  characterName: Germane Fratto
+  dialogue:
+  - "H\xF6chste Zeit, meinen Handelskontekt Lucius Fidelis  zu treffen und ordentlich
+    einzukaufen. "
+  - "Ich brauche Keramikgeschirr mit wei\xDFer Engobe, nachdem meine..\xE4h...Katze...
+    das letzte kaputtgemacht hat. "
+  - Und Wein. Viel Wein!
+  - "Hoffentlich machen mir die R\xF6mer dabei keinen \xC4rger..."
+  - "(M\xF6chtest du ein kurzers Tutorial zu der Steuerung haben?)"
+  responses:
+  - responseText: Ja
+    dialogueObject: {fileID: 11400000, guid: 32ad033fe50b9e840ae17c20f5a94075, type: 2}
+  - responseText: Nein
+    dialogueObject: {fileID: 0}
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}
