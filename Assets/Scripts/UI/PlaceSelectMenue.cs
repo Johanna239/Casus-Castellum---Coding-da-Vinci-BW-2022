@@ -30,6 +30,7 @@ public class PlaceSelectMenue : MonoBehaviour
                 break;      
         }
 
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Menu_Button");
         playMusic.MenueActive = menue;
         playMusic.menueMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 

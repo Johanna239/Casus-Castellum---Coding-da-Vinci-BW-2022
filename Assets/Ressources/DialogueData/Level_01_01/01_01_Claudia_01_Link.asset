@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
-  m_Name: 01_01_Claudia_01_response1_Link
+  m_Name: 01_01_Claudia_01_Link
   m_EditorClassIdentifier: 
   characterName: 'Claudia Messorina '
   dialogue:
-  - "Hm... dann kannst du mir ja sagen, wie man die Verzierung auf dem Ortband nennt!
-    \n(Klicke <u> <link=\"https://www.limesmuseum.de/virtueller-rundgang.88033.52497.htm\">hier</link>
-    </u>, um die Seite mit Informationen aufzurufen)\n"
-  responses: []
+  - "Hey! Ist das \xFCberhaupt dein Schwert? "
+  responses:
+  - responseText: "Selbstverst\xE4ndlich"
+    dialogueObject: {fileID: 11400000, guid: 9134ce2afb597c14288ba472ff047de5, type: 2}
+  - responseText: Ja!
+    dialogueObject: {fileID: 11400000, guid: 9134ce2afb597c14288ba472ff047de5, type: 2}
   question:
-    answer: Tauschierung
-    dialogueObject: {fileID: 11400000, guid: ab18091c2b35fee44ae0c6360aeec136, type: 2}
+    answer: 
+    dialogueObject: {fileID: 0}

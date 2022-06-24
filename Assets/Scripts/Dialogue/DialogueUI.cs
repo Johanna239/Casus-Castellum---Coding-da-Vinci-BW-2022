@@ -91,6 +91,7 @@ public class DialogueUI : MonoBehaviour
         if (dialogueObject.HasResponses)
         {
             Debug.Log("HasResponse");
+            nextButton.gameObject.SetActive(false);
             responseHandler.ShowResponses(dialogueObject.Responses);
         }
 
@@ -141,6 +142,8 @@ public class DialogueUI : MonoBehaviour
 
     private void OnNextClicked()
     {
+        print("button clicked");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Menu_Button");
         nextClicked = true;
     }
 }

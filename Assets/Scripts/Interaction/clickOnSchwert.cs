@@ -5,6 +5,7 @@ using UnityEngine;
 public class clickOnSchwert : MonoBehaviour
 {
     public static bool schwertGeklickt;
+    [SerializeField] private DialogueObject outMuseumDialogue;
     private DialogueActivator dialogueActivator;
 
     // Start is called before the first frame update
@@ -19,6 +20,9 @@ public class clickOnSchwert : MonoBehaviour
 
     void OnMouseDown()
     {
+            if(GameState.InMuseum == false) {
+                dialogueActivator.UpdateDialogueObject(outMuseumDialogue);
+            }
             schwertGeklickt = true;
             dialogueActivator.StartDialogue();
             Destroy(gameObject);
