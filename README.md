@@ -1,5 +1,4 @@
 # Casus-Castellum---Coding-da-Vinci-BW-2022
-![grafik](https://user-images.githubusercontent.com/74548842/179956473-13a3a49e-47f7-4c62-9257-c621ac0043d5.png)
 ![grafik](https://user-images.githubusercontent.com/74548842/214587351-4c4c6159-3e72-4760-b02c-5290ad0f0822.png)
 
 
