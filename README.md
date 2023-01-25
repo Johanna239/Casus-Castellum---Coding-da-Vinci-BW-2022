@@ -1,5 +1,5 @@
 # Casus-Castellum---Coding-da-Vinci-BW-2022
-![grafik](https://user-images.githubusercontent.com/74548842/214587351-4c4c6159-3e72-4760-b02c-5290ad0f0822.png)
+![grafik](https://user-images.githubusercontent.com/74548842/214592641-0c52f9d6-81cb-422a-89ac-3c8d97e2060c.png)
 
 
 Der Germane Fratto muss unbedingt zum Praefekten Marcus Ulpius Dignus gelangen. Er hat das gestohlen geglaubte Schwert des Römers gefunden. Doch als Germane steht er unter Generalverdacht und hat es nicht leicht auf seinem Weg ins Kastell.  In diesem Spiel hilfst du Fratto dabei die Ausgrabungsgegenstände aus dem Reiterkastell in Aalen zu finden und mit ihnen in der Geschichte weiterzukommen. Löse die Rätsel mithilfe der Informationen im Museum oder zu Hause auf der Couch.  Wir arbeiten mit 3D-Modellen und Bildern des Limesmuseum Aalen und Abbildungen aus der Badischen Landesbibliothek.
