@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 01_01_Fratto_MissingObjects
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Ich kann noch nicht weiter, das Schwert muss hier irgendwo sein!
+      Claudia meinte etwas von \"dahinten im Geb\xFCsch\", da gibt es hier einige. "
+  responses: []
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

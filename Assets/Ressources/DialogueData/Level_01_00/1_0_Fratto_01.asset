@@ -12,15 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Fratto_01
   m_EditorClassIdentifier: 
-  characterName: Germane Fratto
   dialogue:
-  - "H\xF6chste Zeit, meinen Handelskontakt Lucius Fidelis  zu treffen und ordentlich
-    einzukaufen. "
-  - "Ich brauche Keramikgeschirr mit wei\xDFer Engobe, nachdem meine..\xE4h...Katze...
-    das letzte kaputtgemacht hat. "
-  - Und Wein. Viel Wein!
-  - "Hoffentlich machen mir die R\xF6mer dabei keinen \xC4rger..."
-  - "(M\xF6chtest du ein kurzers Tutorial zu der Steuerung haben?)"
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "H\xF6chste Zeit, meinen Handelskontakt Lucius Fidelis zu treffen
+      und ordentlich einzukaufen."
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Ich brauche Keramikgeschirr mit wei\xDFer Engobe, nachdem mein
+      \u2026\xE4h... Hund... das letzte kaputtgemacht hat."
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: Und Wein. Viel Wein!
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Hoffentlich machen mir die R\xF6mer dabei keinen \xC4rger..."
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: "(M\xF6chtest du eine kurze Einf\xFChrung zur Steuerung haben?)"
   responses:
   - responseText: Ja
     dialogueObject: {fileID: 11400000, guid: 32ad033fe50b9e840ae17c20f5a94075, type: 2}

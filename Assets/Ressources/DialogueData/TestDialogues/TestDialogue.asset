@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: TestDialogue
   m_EditorClassIdentifier: 
-  characterName: Ich bin ein Baum
   dialogue:
-  - This is the first page
-  - this the second one
-  - and this is the third one with some more text
+  - speakingCharacter: Baum 1
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: This is the firrst page
+  - speakingCharacter: Baum 1
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: this the second one
+  - speakingCharacter: Baum 1
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: and this is the third one with some more text
   responses:
   - responseText: TestOption1
     dialogueObject: {fileID: 11400000, guid: c13ef3c335e3b7a499086d46ccaddd43, type: 2}

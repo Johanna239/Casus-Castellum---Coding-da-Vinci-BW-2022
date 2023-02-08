@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: TestOption1
   m_EditorClassIdentifier: 
   dialogue:
-  - You clicked the first Option! Great Job.
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 0}
+    dialogueText: You clicked the first option! Great job.
   responses: []
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

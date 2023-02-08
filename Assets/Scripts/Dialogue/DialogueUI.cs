@@ -9,14 +9,19 @@ public class DialogueUI : MonoBehaviour
 
     [SerializeField] private TMP_Text textLabel;
     [SerializeField] private GameObject dialogueBox;
+     [SerializeField] private GameObject characterNameBox;
     [SerializeField] private TMP_Text characterName;
-    [SerializeField] private GameObject characterNameBox;
+    [SerializeField] private GameObject characterImageBox;
+    [SerializeField] private Image speakingCharacterImage;
     [SerializeField] private GameObject nextButton;
 
     private ResponseHandler responseHandler;
     private QuestionHandler questionHandler;
     private CloseEvent closeEvent;
     private TypewriterEffect typewriterEffect;
+
+    public DialogueActivator lastActivator;
+
     private bool nextClicked = false;
 
     public bool IsOpen { get; private set; }
@@ -41,31 +46,26 @@ public class DialogueUI : MonoBehaviour
         IsOpen = true;
         dialogueBox.SetActive(true);
 
-        // set CharacterName if given
-        if (!string.IsNullOrEmpty(dialogueObject.CharacterName))
-        {
-            characterNameBox.SetActive(true);
-            characterName.text = dialogueObject.CharacterName;
-        }
-
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
-    public void AddResponseEvents(ResponseEvent[] responseEvents) {
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
         responseHandler.AddResponseEvents(responseEvents);
     }
 
-    public void AddQuestionEvent(QuestionEvent questionEvent) {
+    public void AddQuestionEvent(QuestionEvent questionEvent)
+    {
         questionHandler.AddQuestionEvent(questionEvent);
     }
 
-    public void AddCloseEvent(CloseEvent closeEvent) {
+    public void AddCloseEvent(CloseEvent closeEvent)
+    {
         this.closeEvent = closeEvent;
     }
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
-
         // return dialogues in dialogueObject one after another
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
@@ -73,7 +73,28 @@ public class DialogueUI : MonoBehaviour
             nextButton.gameObject.SetActive(true);
 
             // get current dialogue text 
-            string dialogue = dialogueObject.Dialogue[i];
+            string dialogue = dialogueObject.Dialogue[i].DialogueText;
+            string speakingCharacter = dialogueObject.Dialogue[i].SpeakingCharacter;
+            Sprite characterIcon = dialogueObject.Dialogue[i].CharacterIcon;
+
+            // set CharacterName if given
+            if (!string.IsNullOrEmpty(speakingCharacter))
+            {
+                characterNameBox.SetActive(true);
+                characterName.text = speakingCharacter;
+            }
+            else {
+                characterNameBox.SetActive(false);
+            }
+
+            if(characterIcon) {
+                speakingCharacterImage.sprite = characterIcon;
+                characterImageBox.SetActive(true);
+            }
+            else {
+                characterImageBox.SetActive(false);
+            }
+
 
             // start coroutine with typing
             yield return RunTypingEffect(dialogue);
@@ -90,14 +111,12 @@ public class DialogueUI : MonoBehaviour
         // if there are any responses, display them instead of closing
         if (dialogueObject.HasResponses)
         {
-            Debug.Log("HasResponse");
             nextButton.gameObject.SetActive(false);
             responseHandler.ShowResponses(dialogueObject.Responses);
         }
 
         else if (!string.IsNullOrEmpty(dialogueObject.Question.Answer))
         {
-            Debug.Log("HasQuestion");
             nextButton.gameObject.SetActive(false);
             questionHandler.ShowQuestion(dialogueObject.Question);
         }
@@ -131,10 +150,12 @@ public class DialogueUI : MonoBehaviour
         IsOpen = false;
         dialogueBox.SetActive(false);
         characterNameBox.SetActive(false);
+        characterImageBox.SetActive(false);
         textLabel.text = string.Empty;
         characterName.text = string.Empty;
 
-        if(closeEvent!= null) {
+        if (closeEvent != null)
+        {
             closeEvent.OnClose?.Invoke();
         }
         closeEvent = null;
@@ -142,7 +163,6 @@ public class DialogueUI : MonoBehaviour
 
     private void OnNextClicked()
     {
-        print("button clicked");
         FMODUnity.RuntimeManager.PlayOneShot("event:/Menu_Button");
         nextClicked = true;
     }

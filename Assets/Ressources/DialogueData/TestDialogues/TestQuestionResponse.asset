@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: TestQuestionResponse
   m_EditorClassIdentifier: 
   dialogue:
-  - Awesome! I'm very proud of you. Go on with whatever you where doing.
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 0}
+    dialogueText: Awesome! I'm really proud of you. Go on with whatever you were
+      doing.
   responses: []
   question:
     answer: 

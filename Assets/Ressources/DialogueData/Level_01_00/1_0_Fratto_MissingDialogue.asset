@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Fratto_MissingDialogue
   m_EditorClassIdentifier: 
-  characterName: Germane Fratto
   dialogue:
-  - Diese Dame gerade hat mich sehr neugierig angeschaut... Ich sollte nachfragen,
-    was sie von mir will.
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: Diese Dame gerade hat mich sehr neugierig angeschaut... Ich sollte
+      nachfragen, was sie von mir will.
   responses: []
   question:
     answer: 

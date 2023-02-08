@@ -12,19 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Tutorial
   m_EditorClassIdentifier: 
-  characterName: Tutorial
   dialogue:
-  - "Du kannst deinen Charakter entweder durch Tippen oder gedr\xFCckt halten des
-    Bildschirms steuern. "
-  - "Tippst oder dr\xFCckst du rechts, bewegt sich der Charakter nach rechts, und
-    tippst oder dr\xFCckst du links, bewegt er sich nach links."
-  - Mit einigen Charakteren oder Objekten kannst du interagieren, indem du sie antippst.
-    Probiere einfach ein wenig herum!
-  - "Wenn du auf das Hub-Symbol in der rechten oberen Ecke klickst, siehst du, nach
-    welchen Gegenst\xE4nden du Ausschau halten musst."
-  - "Die Gegenst\xE4nde sind eventuell \xFCber mehrere Level verteilt, du musst sie
-    also nicht alle auf einmal finden."
-  - Hast du alles verstanden?
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: "Du kannst deinen Charakter entweder durch Tippen oder gedr\xFCckt
+      halten des Bildschirms steuern."
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: "Tippst oder dr\xFCckst du rechts, bewegt sich der Charakter nach
+      rechts, und tippst oder dr\xFCckst du links, bewegt er sich nach links."
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: Mit einigen Charakteren oder Objekten kannst du interagieren, indem
+      du sie antippst. Probiere einfach ein wenig herum!
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: "Wenn du auf das Hub-Symbol in der rechten oberen Ecke klickst,
+      siehst du, nach welchen Gegenst\xE4nden du Ausschau halten musst."
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: "Die Gegenst\xE4nde sind eventuell \xFCber mehrere Level verteilt,
+      du musst sie also nicht alle auf einmal finden."
+  - speakingCharacter: Tutorial
+    characterIcon: {fileID: 0}
+    dialogueText: Hast du alles verstanden?
   responses:
   - responseText: Ja, auf geht's!
     dialogueObject: {fileID: 0}

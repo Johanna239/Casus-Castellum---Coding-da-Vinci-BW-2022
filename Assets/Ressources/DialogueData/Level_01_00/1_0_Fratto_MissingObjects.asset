@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Fratto_MissingObjects
   m_EditorClassIdentifier: 
-  characterName: Germane Fratto
   dialogue:
-  - 'Mir geht nicht aus dem Kopf, was Claudia Messorina gerade gesagt hat. Vielleicht
-    sollte ich diesen Steckbrief doch noch anschauen. '
-  - "...Und danach mit Claudia dar\xFCber reden, damit sie endlich zufrieden ist."
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: Mir geht nicht aus dem Kopf, was Claudia Messorina gerade gesagt
+      hat. Vielleicht sollte ich diesen Steckbrief doch noch anschauen.
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "...Und danach mit Claudia dar\xFCber reden, damit sie endlich
+      zufrieden ist."
   responses: []
   question:
     answer: 

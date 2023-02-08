@@ -8,6 +8,8 @@ public static class GameState
     private static List<string> fulfilledRequirements = new List<string>(); 
 
     public static bool InMuseum { get => inMuseum; set => inMuseum = value; }
+
+    // steckbrief, schwert, brustblech, maskenhelm, holzkaestchen, krug, krug2
     public static List<string> FulfilledRequirements { get => fulfilledRequirements; set => fulfilledRequirements = value; }
 
     public static void fulfilledRequirement(string requirement) {

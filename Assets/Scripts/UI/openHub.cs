@@ -1,38 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class openHub : MonoBehaviour
 {
     public static bool hubOpen;
-    public SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject background;
+    [SerializeField] private CharacterMovement character;
+    private List<Transform> children;
 
     // Start is called before the first frame update
     void Start()
     {
         hubOpen = false;
-        this.spriteRenderer = this.transform
-            .Find("hub_withIcons_background")
-            .GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update() { }
-
-    void OnMouseOver()
+    void OnMouseUp()
     {
-        if (Input.GetMouseButtonDown(0))
+        // only open hub if no dialogue is active
+        if (!character.DialogueUI.IsOpen)
         {
-            if (spriteRenderer.enabled)
+            background.SetActive(!background.activeSelf);
+            hubOpen = !hubOpen;
+            // disable movement while in hub
+            character.StopMovement = !character.StopMovement;
+
+            if (hubOpen == true)
             {
-                spriteRenderer.enabled = false;
-                hubOpen = false;
+                // steckbrief, schwert, brustblech, maskenhelm, holzkaestchen, krug, krug2
+                foreach (Transform child in background.transform)
+                {
+                    if (GameState.FulfilledRequirements.Contains(child.gameObject.name))
+                    {
+                        Debug.Log(child.gameObject.name);
+                        child.gameObject.SetActive(true);
+                    }
+                }
             }
-            else
-            {
-                spriteRenderer.enabled = true;
-                hubOpen = true;
-            }
+
+
+
         }
+
+
     }
+
 }

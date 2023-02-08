@@ -13,6 +13,23 @@ MonoBehaviour:
   m_Name: TestOption2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'You clicked the second Option! Are you sure this was a good choice? Oh well,
-    whatever. '
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: "You clicked the second option. Are you sure this was a good choice?
+      \nOh well, whatever"
+  - speakingCharacter: Inner voice
+    characterIcon: {fileID: 21300000, guid: ae2ac246c19cc4148b12cbfdb03c3ae3, type: 3}
+    dialogueText: Don't be so hard on this person, this is just for testing purpose!
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: WHO ARE YOU???
+  - speakingCharacter: Inner voice
+    characterIcon: {fileID: 21300000, guid: ae2ac246c19cc4148b12cbfdb03c3ae3, type: 3}
+    dialogueText: Oh no, here we go again... Keep calm...
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: GAAAAAAH
   responses: []
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

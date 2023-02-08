@@ -75,8 +75,6 @@ public class ResponseHandler : MonoBehaviour
         // if there are any events associated with clicked response, call them
         if (responseEvents != null && responseIndex <= responseEvents.Length)
         {
-            print("ResponseEvents" + responseEvents[responseIndex]);
-
             responseEvents[responseIndex].OnPickedResponse?.Invoke();
         }
 
@@ -87,6 +85,9 @@ public class ResponseHandler : MonoBehaviour
         {
             // show dialogue depending on clicked response
             dialogueUI.ShowDialogue(response.DialogueObject);
+            dialogueUI.lastActivator.UpdateDialogueObject(response.DialogueObject);
+            dialogueUI.lastActivator.CheckEvents();
+            
         }
         else 
         {

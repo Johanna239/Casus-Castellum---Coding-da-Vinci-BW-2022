@@ -26,7 +26,7 @@ public class PlaceSelectMenue : MonoBehaviour
                 GameState.InMuseum = false;
                 break;  
             default:
-                print ("PlaceSelectButton not recognized");
+                Debug.Log("PlaceSelectButton not recognized");
                 break;      
         }
 

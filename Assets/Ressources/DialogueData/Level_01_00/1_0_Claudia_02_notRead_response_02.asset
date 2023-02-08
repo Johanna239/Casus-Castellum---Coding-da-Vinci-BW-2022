@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Claudia_02_notRead_response_02
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - Wieso redest du dann mit mir? LIES DEN STECKBRIEF!!
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: Wieso redest du dann mit mir? LIES DEN STECKBRIEF!!
   responses: []
   question:
     answer: 

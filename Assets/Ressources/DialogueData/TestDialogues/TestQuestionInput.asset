@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: TestQuestionInput
   m_EditorClassIdentifier: 
   dialogue:
-  - 'You clicked the third Option! Now it''s time for a test. Can you spell "Banana"
-    for me? '
+  - speakingCharacter: Annoying Developer
+    characterIcon: {fileID: 0}
+    dialogueText: You clicked the thid option! Now it's time for a test. Can you
+      spell "Banana" for me?
   responses: []
   question:
     answer: Banana

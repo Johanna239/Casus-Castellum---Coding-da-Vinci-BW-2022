@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 03_02_Praefekt_02
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: "Bist du bereit, das R\xE4tsel zu l\xF6sen? Davor solltest du beide
+      Kr\xFCge gut betrachtet haben!"
+  responses:
+  - responseText: Nein, noch nicht
+    dialogueObject: {fileID: 0}
+  - responseText: Ja, ich bin bereit!
+    dialogueObject: {fileID: 11400000, guid: ca199e3d88e590c4abba6f92fb5ee91e, type: 2}
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

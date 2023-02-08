@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 01_01_Claudia_01_questionAnswered
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - Na gut, dann glabe ich dir das mal. Hier hast du dein Schwert!
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: Na gut, dann glaube ich dir das mal. Hier hast du dein Schwert!
   responses: []
   question:
     answer: 

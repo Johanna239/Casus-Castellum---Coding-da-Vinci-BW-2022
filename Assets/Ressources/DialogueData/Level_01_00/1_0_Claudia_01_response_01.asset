@@ -12,14 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Claudia_01_response_01
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - 'Du hast den Brief gelesen? Sehr gut. Bei Minerva, der Praefekt soll sich mal
-    nicht so aufregen! Er kann sich doch im vicus einfach ein neues kaufen. '
-  - "Und \xFCberhaupt liegen hier so viele verlorene Schwerter rum. Die Soldaten
-    m\xFCssen da echt mal mehr auf ihre Waffen achten. "
-  - "Gerade eben habe ich schon wieder eines beim Kr\xE4utersammeln dahinten im Geb\xFCsch
-    gesehen. Die Kr\xE4uter rochen heute \xFCbrigens sehr seltsam\u2026"
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: Du hast den Brief gelesen? Sehr gut. Bei Minerva, der Praefekt
+      soll sich mal nicht so aufregen! Er kann sich doch im vicus einfach ein neues
+      kaufen.
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: "Und \xFCberhaupt liegen hier so viele verlorene Schwerter rum.
+      Die Soldaten m\xFCssen da echt mal mehr auf ihre Waffen achten."
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: "Gerade eben habe ich schon wieder eines beim Kr\xE4utersammeln
+      dahinten im Geb\xFCsch gesehen. Die Kr\xE4uter rochen heute \xFCbrigens sehr
+      seltsam\u2026"
   responses: []
   question:
     answer: 

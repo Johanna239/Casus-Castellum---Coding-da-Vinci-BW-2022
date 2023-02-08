@@ -12,8 +12,16 @@ public class DialogueActivator : MonoBehaviour //, IInteractable
     [SerializeField] private bool oneTimeTrigger;
 
     private Collider2D boxCollider;
+    private DialogueResponseEvents[] responseEvents;
+    private DialogueQuestionEvent[] questionEvents;
+    private DialogueCloseEvent[] closeEvents;
 
-    public void UpdateDialogueObject(DialogueObject dialogueObject) {
+    public bool WalkInTrigger { get => walkInTrigger; set => walkInTrigger = value; }
+    public bool MouseTrigger { get => mouseTrigger; set => mouseTrigger = value; }
+    public bool OneTimeTrigger { get => oneTimeTrigger; set => oneTimeTrigger = value; }
+
+    public void UpdateDialogueObject(DialogueObject dialogueObject)
+    {
         this.dialogueObject = dialogueObject;
     }
 
@@ -25,6 +33,9 @@ public class DialogueActivator : MonoBehaviour //, IInteractable
         {
             boxCollider = col;
         }
+        responseEvents = GetComponents<DialogueResponseEvents>();
+        questionEvents = GetComponents<DialogueQuestionEvent>();
+        closeEvents = GetComponents<DialogueCloseEvent>();
 
         yield return new WaitForSeconds(0.5f);
         if (instantTrigger)
@@ -44,7 +55,7 @@ public class DialogueActivator : MonoBehaviour //, IInteractable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (walkInTrigger && other.gameObject.tag == "Player")
+        if (WalkInTrigger && other.gameObject.tag == "Player")
         {
             StartDialogue();
         }
@@ -55,17 +66,9 @@ public class DialogueActivator : MonoBehaviour //, IInteractable
         // only start dialogue if there is no other dialogue open
         if (!player.DialogueUI.IsOpen)
         {
-            if(TryGetComponent(out DialogueResponseEvents responseEvents)) {
-                player.DialogueUI.AddResponseEvents(responseEvents.Events);
-            }
-
-            if(TryGetComponent(out DialogueQuestionEvent questionEvent)) { //&& questionEvent.DialogueObject == dialogueObject
-                player.DialogueUI.AddQuestionEvent(questionEvent.QuestionEvent);
-            }
-
-            if(TryGetComponent(out DialogueCloseEvent closeEvent)) { //&& questionEvent.DialogueObject == dialogueObject
-                player.DialogueUI.AddCloseEvent(closeEvent.CloseEvent);
-            }
+            // set reference to current activator to later check for events
+            player.DialogueUI.lastActivator = this;
+            CheckEvents();
 
             player.DialogueUI.ShowDialogue(dialogueObject);
 
@@ -75,5 +78,43 @@ public class DialogueActivator : MonoBehaviour //, IInteractable
                 boxCollider.enabled = false;
             }
         }
+    }
+
+    public void CheckEvents()
+    {
+        // check all responseEvents for match
+        if (responseEvents.Length > 0)
+        {
+            for (int i = 0; i < responseEvents.Length; i++)
+            {
+                if (responseEvents[i].DialogueObject == dialogueObject)
+                {
+                    player.DialogueUI.AddResponseEvents(responseEvents[i].Events);
+                }
+            }
+        }
+
+        if (questionEvents.Length > 0)
+        {
+            for (int i = 0; i < questionEvents.Length; i++)
+            {
+                if (questionEvents[i].DialogueObject == dialogueObject)
+                {
+                    player.DialogueUI.AddQuestionEvent(questionEvents[i].QuestionEvent);
+                }
+            }
+        }
+
+        if (closeEvents.Length > 0)
+        {
+            for (int i = 0; i < closeEvents.Length; i++)
+            {
+                if (closeEvents[i].DialogueObject == dialogueObject)
+                {
+                    player.DialogueUI.AddCloseEvent(closeEvents[i].CloseEvent);
+                }
+            }
+        }
+
     }
 }

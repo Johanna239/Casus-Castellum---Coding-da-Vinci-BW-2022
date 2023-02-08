@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 03_02_Fratto_Praefekt_02
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Hah, das war leicht f\xFCr einen wahren R\xF6merfreund wie mich.
+      Nat\xFCrlich ist der Krug hier von Decoratus."
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: Er hat sogar darauf unterschrieben!
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: "Du hast mich \xFCberzeugt. Du kannst nur ein wahrer Freund der
+      R\xF6mer sein, wenn du diese Kr\xFCge unterscheiden kannst und sogar den Soldaten
+      Decoratus pers\xF6nlich kennst. \r"
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: 'So ein guter Soldat, sehr pflichtbewusst, die anderen sollen sich
+      mal ein Beispiel an ihm nehmen! '
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: 'Aber genug von ihm, hier hast du deine Belohnung. '
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: "Ich beauftrage dich au\xDFerdem damit, unser Kastell regelm\xE4\xDFig
+      mit Fellen und Bernstein zu beliefern."
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Das ist ein lukrativer Auftrag und eine gro\xDFe Verbesserung
+      f\xFCr die Beziehung der Germanen zu den R\xF6mern."
+  responses: []
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

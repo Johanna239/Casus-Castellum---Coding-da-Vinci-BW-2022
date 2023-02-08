@@ -39,7 +39,7 @@ public class grossesSchwert : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/Sword");
             anim.SetTrigger("schwert_einsammeln");
             FMODUnity.RuntimeManager.PlayOneShot("event:/BUtton2paper");
-            GameState.fulfilledRequirement("sword");
+            GameState.fulfilledRequirement("schwert");
             // spriteRendererSteckbrief.enabled = false;
             Destroy(gameObject, 2f);
         }

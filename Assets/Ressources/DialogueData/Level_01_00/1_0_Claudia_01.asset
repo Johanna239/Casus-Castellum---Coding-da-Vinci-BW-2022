@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Claudia_01
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - Hast du den Steckbrief hier schon gesehen? Unglaublich, was hier schon wieder
-    los ist.
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: Hast du den Steckbrief hier schon gesehen? Unglaublich, was hier
+      schon wieder los ist.
   responses:
   - responseText: Ja, habe ich
     dialogueObject: {fileID: 11400000, guid: 381f8f164a7618d4ead0b1548f1dfa62, type: 2}

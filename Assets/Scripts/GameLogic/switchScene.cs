@@ -11,7 +11,11 @@ public class switchScene : MonoBehaviour
 
     void OnMouseUp()
     {
+        checkSceneTransition(levelname);
+    }
 
+    public void checkSceneTransition(string levelToGo)
+    {
         if (requirements.Length > 0)
         {
             transitionAllowed = true;
@@ -21,15 +25,21 @@ public class switchScene : MonoBehaviour
                 if (!GameState.FulfilledRequirements.Contains(requirement))
                 {
                     transitionAllowed = false;
-                    print("requirement " + requirement + "not met for transition");
+                    Debug.Log("requirement " + requirement + " not met for transition");
                 }
             }
         }
 
-
         if (transitionAllowed)
         {
-            SceneManager.LoadScene(levelname);
+            if (levelToGo == "Quit")
+            {
+                quitGame();
+            }
+            else
+            {
+                SceneManager.LoadScene(levelToGo);
+            }
         }
         else
         {
@@ -38,8 +48,14 @@ public class switchScene : MonoBehaviour
                 activator.StartDialogue();
             }
         }
+    }
 
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 
-
+    public void loadScene(string sceneName) {
+        SceneManager.LoadScene(sceneName);
     }
 }

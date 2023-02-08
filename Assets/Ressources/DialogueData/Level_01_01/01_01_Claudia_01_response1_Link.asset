@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 01_01_Claudia_01_response1_Link
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - "Hm... dann kannst du mir ja sagen, wie man die Verzierung auf dem Ortband nennt!
-    \n(Klicke <u> <link=\"https://www.limesmuseum.de/virtueller-rundgang.88033.52497.htm\">hier</link>
-    </u>, um die Seite mit Informationen aufzurufen)\n"
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: 'Hm... dann kannst du mir ja sagen, aus welchem Kastell der Knauf
+      kommt!
+
+      (Klicke <u><link="sword">hier</link></u>, um die Seite mit Informationen
+      aufzurufen'
   responses: []
   question:
-    answer: Tauschierung
+    answer: Bad Cannstatt
     dialogueObject: {fileID: 11400000, guid: ab18091c2b35fee44ae0c6360aeec136, type: 2}

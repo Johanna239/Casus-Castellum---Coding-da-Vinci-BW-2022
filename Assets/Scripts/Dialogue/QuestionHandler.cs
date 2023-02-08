@@ -76,7 +76,6 @@ public class QuestionHandler : MonoBehaviour
         // show textHintOverlay only if option is toggled (true) and overlay exists
         if (showUnderscores && textHintOverlay != null)
         {
-            Debug.Log("Enabling Hints");
             Regex regex = new Regex("[^\\s]");
             textHintOverlay.text = regex.Replace(question.Answer, replaceWith);
             textHintOverlay.enabled = true;
@@ -151,13 +150,15 @@ public class QuestionHandler : MonoBehaviour
             questionEvent.OnAnsweredQuestion?.Invoke();
         }
 
-        // reset responseEvents
+        // reset questionEvents
         questionEvent = null;
 
         if (question.DialogueObject)
         {
             // show dialogue depending on clicked response
             dialogueUI.ShowDialogue(question.DialogueObject);
+            dialogueUI.lastActivator.UpdateDialogueObject(question.DialogueObject);
+            dialogueUI.lastActivator.CheckEvents();
         }
         else
         {

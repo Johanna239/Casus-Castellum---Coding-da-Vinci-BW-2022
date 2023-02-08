@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
+  m_Name: 03_02_Fratto_Praefekt_01
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: Ein Eindringling! Wachen!
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: "Nein! Ich bin keine Gefahr, nur ein einfacher H\xE4ndler. Ich
+      bin hier um das gestohlen geglaubte Schwert zur\xFCckzubringen."
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: Nicht nur Eindringling, sondern sogar ein Dieb!
+  - speakingCharacter: Germane Fratto
+    characterIcon: {fileID: 21300000, guid: 9da6d1228941cbf49a64abb5c0b333ac, type: 3}
+    dialogueText: Es ist nicht so, wie Sie denken. Das Schwert wurde nicht gestohlen.
+      Ich habe es an einem Baum im Wald gefunden.
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: "Wieso sollte ich dir glauben? Beweise erst, dass du ein wahrer
+      Freund der R\xF6mer bist! "
+  - speakingCharacter: "Pr\xE4fekt"
+    characterIcon: {fileID: 21300000, guid: 77102380c7c1a5e42b7e9d0a3019a27b, type: 3}
+    dialogueText: Ich werde dir eine Frage stellen. Erst wenn du sie richtig beantwortest,
+      glaube ich dir deine Geschichte.
+  responses:
+  - responseText: "Na gut... mir bleibt sowieso nichts anderes \xFCbrig"
+    dialogueObject: {fileID: 11400000, guid: 4481a9e0cf6b2cc43b9754dc13aef121, type: 2}
+  question:
+    answer: 
+    dialogueObject: {fileID: 0}

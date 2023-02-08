@@ -6,12 +6,16 @@ public class AnimationSpeed : MonoBehaviour
 {
 
     private Animator anim;
-    public float animationSpeed = 1f; 
+    [SerializeField] private float animationSpeed = 1f; 
 
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator> ();
+    }
+
+    public void setAnimationSpeed(float speed) {
+        this.animationSpeed = speed;
     }
 
     // Update is called once per frame

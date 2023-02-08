@@ -63,7 +63,7 @@ public class TypewriterEffect : MonoBehaviour
                 // TODO find better solution for ignoring typewritingEffect on tags
                 if (textToType[i] == '<')
                 {
-                    typingSpeed = 1000;
+                    typingSpeed = 5000;
                     doPunctuationCheck = false;
                 }
                 else if (textToType[i] == '>')

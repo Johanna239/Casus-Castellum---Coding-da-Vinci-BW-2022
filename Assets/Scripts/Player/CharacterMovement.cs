@@ -12,19 +12,22 @@ public class CharacterMovement : MonoBehaviour
 
     public DialogueUI DialogueUI => dialogueUI;
 
+    public bool StopMovement { get => stopMovement; set => stopMovement = value; }
+
     private Vector3 mousePosWorld;
     private Vector2 mousePosWorld2D;
     private RaycastHit2D hit;
     private Vector2 targetPos;
     private bool isMoving;
+    private bool stopMovement;
     private FMOD.Studio.EventInstance footstepInstance;
 
 
     // Update is called once per frame
     void Update()
     {
-        // do not do anything else if a dialogue is open
-        if (dialogueUI.IsOpen) return;
+        // do not do anything else if a dialogue is open and disable setting a new point while still walking
+        if (dialogueUI.IsOpen || isMoving || stopMovement) return;
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {
@@ -41,6 +44,12 @@ public class CharacterMovement : MonoBehaviour
                 CheckSpriteFlip();
             }
         }
+    }
+
+    public void updatePosition(Transform targetPosition) {
+        targetPos = new Vector2(targetPosition.position.x, player.transform.position.y);
+        isMoving = true;
+        CheckSpriteFlip();
     }
 
     private void FixedUpdate()

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2646879dff83c64caa1204d02120b57, type: 3}
   m_Name: 1_0_Claudia_01_response_02
   m_EditorClassIdentifier: 
-  characterName: 'Claudia Messorina '
   dialogue:
-  - "Dann mach das noch, ich brauche jemand, mit dem ich mich dar\xFCber unterhalten
-    kann! Passiert ja sonst nichts Spannendes hier..."
+  - speakingCharacter: Claudia Messorina
+    characterIcon: {fileID: 21300000, guid: 16b680f591e6efb46b903e55f29721cc, type: 3}
+    dialogueText: "Dann mach das noch, ich brauche jemand, mit dem ich mich dar\xFCber
+      unterhalten kann! Passiert ja sonst nichts Spannendes hier..."
   responses: []
   question:
     answer: 
