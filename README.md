@@ -5,4 +5,15 @@ Der Germane Fratto muss unbedingt zum Praefekten Marcus Ulpius Dignus gelangen. 
 
 Amelie Kassner &amp; Johanna Kuch Mit Unterstützung von Ada Schmidt beim Sounddesign (www.adaschmidt.com)
 
-**Download**: Klicke auf diesen Link um den Ordner mit allen Builds herunterzuladen: [https://downgit.github.io/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FJohanna239%2FCasus-Castellum---Coding-da-Vinci-BW-2022%2Ftree%2Fmain%2FBuilds)
+## Download
+Klicke auf diesen Link um den Ordner mit allen Builds herunterzuladen: [https://downgit.github.io/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FJohanna239%2FCasus-Castellum---Coding-da-Vinci-BW-2022%2Ftree%2Fmain%2FBuilds)
+
+### Installation Android (.apk-Datei):
+1. Kopiere die .apk-Datei auf dein Handy
+2. Öffne die "Einstellungen" auf deinem Android-Handy. Du kannst dies normalerweise über das App-Symbol mit dem Zahnrad-Symbol finden.
+3. Scrolle nach unten und suche nach der Option "Sicherheit" oder "Sicherheit und Datenschutz". Dies kann je nach Android-Version und Gerätehersteller variieren. Tippe darauf, um die Sicherheitseinstellungen zu öffnen.
+4. In den Sicherheitseinstellungen solltest du eine Option namens "Unbekannte Quellen" oder "Installation von unbekannten Quellen" sehen. Aktiviere diese Option, indem du den Schalter nach rechts schiebst. Dadurch erlaubst du die Installation von Apps aus anderen Quellen als dem offiziellen Google Play Store.
+5. Gehe nun zum Dateimanager oder der App, mit der du die .apk-Datei heruntergeladen hast. Navigiere zu dem Ordner, in dem sich die .apk-Datei befindet.
+6. Tippe auf die .apk-Datei, um den Installationsvorgang zu starten. Du wirst möglicherweise eine Sicherheitswarnung sehen, die dich darauf hinweist, dass das Installieren von Apps aus unbekannten Quellen Risiken mit sich bringen kann. Überprüfe, ob die App, die du installieren möchtest, sicher und vertrauenswürdig ist, und tippe dann auf "Installieren", um fortzufahren.
+7. Warte, bis die Installation abgeschlossen ist. Dies kann je nach Größe der App und der Leistung deines Handys einige Sekunden oder Minuten dauern.
+8. Sobald die Installation abgeschlossen ist, siehst du eine Benachrichtigung, dass die App erfolgreich installiert wurde. Du kannst nun entweder auf "Öffnen" tippen, um die App direkt zu starten, oder auf "Fertig" tippen, um zum Startbildschirm zurückzukehren.
