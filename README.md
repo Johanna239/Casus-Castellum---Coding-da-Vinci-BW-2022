@@ -6,8 +6,10 @@ Der Germane Fratto muss unbedingt zum Praefekten Marcus Ulpius Dignus gelangen. 
 Amelie Kassner &amp; Johanna Kuch Mit Unterstützung von Ada Schmidt beim Sounddesign (www.adaschmidt.com)
 
 ## Download
-Klicke auf diesen Link um das Spiel für Android herunterzuladen: 
-[https://downgit.evecalm.com/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds/23_05_20_ReleaseBuild_Android](https://downgit.evecalm.com/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds/23_05_20_ReleaseBuild_Android)
+Klicke auf diesen Link um zur Version des Spiels für Android Geräte zu kommen. Lade es dann im Drei-Punkte-Menü über die Option Download rechts herunter.
+![download](https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/assets/74548842/d19bbf6b-54b1-4556-a54f-e5fe08281e2a)
+
+[https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/blob/main/Builds/23_05_20_ReleaseBuild_Android/CasusCastellum.apk](https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/blob/main/Builds/23_05_20_ReleaseBuild_Android/CasusCastellum.apk)
 
 
 Klicke auf diesen Link um das Spiel für PC herunterzuladen: 
