@@ -6,7 +6,8 @@ Der Germane Fratto muss unbedingt zum Praefekten Marcus Ulpius Dignus gelangen. 
 Amelie Kassner &amp; Johanna Kuch Mit Unterstützung von Ada Schmidt beim Sounddesign (www.adaschmidt.com)
 
 ## Download
-Klicke auf diesen Link um den Ordner mit allen Builds herunterzuladen: [https://downgit.github.io/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FJohanna239%2FCasus-Castellum---Coding-da-Vinci-BW-2022%2Ftree%2Fmain%2FBuilds)
+Klicke auf diesen Link um nur das Spiel für Android herunterzuladen: [https://downgit.evecalm.com/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds/23_05_20_ReleaseBuild_Android](https://downgit.evecalm.com/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds/23_05_20_ReleaseBuild_Android)
+Klicke auf diesen Link um den Ordner mit allen Versionen des Spiels (PC & Android) herunterzuladen: [https://downgit.github.io/#/home?url=https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/tree/main/Builds](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FJohanna239%2FCasus-Castellum---Coding-da-Vinci-BW-2022%2Ftree%2Fmain%2FBuilds)
 
 ### Installation Android (.apk-Datei):
 1. Kopiere die .apk-Datei auf dein Handy
