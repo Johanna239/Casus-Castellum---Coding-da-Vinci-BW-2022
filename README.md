@@ -7,7 +7,8 @@ Amelie Kassner &amp; Johanna Kuch Mit Unterstützung von Ada Schmidt beim Soundd
 
 ## Download
 Klicke auf diesen Link um zur Version des Spiels für Android Geräte zu kommen. Lade es dann im Drei-Punkte-Menü über die Option Download rechts herunter.
-<img src="https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/assets/74548842/d19bbf6b-54b1-4556-a54f-e5fe08281e2a" width="150px"/>
+
+<img src="https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/assets/74548842/d19bbf6b-54b1-4556-a54f-e5fe08281e2a" width="200px"/>
 
 [https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/blob/main/Builds/23_05_20_ReleaseBuild_Android/CasusCastellum.apk](https://github.com/Johanna239/Casus-Castellum---Coding-da-Vinci-BW-2022/blob/main/Builds/23_05_20_ReleaseBuild_Android/CasusCastellum.apk)
 
