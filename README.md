@@ -25,3 +25,10 @@ Klicke auf diesen Link um das Spiel für PC herunterzuladen:
 6. Tippe auf die .apk-Datei, um den Installationsvorgang zu starten. Du wirst möglicherweise eine Sicherheitswarnung sehen, die dich darauf hinweist, dass das Installieren von Apps aus unbekannten Quellen Risiken mit sich bringen kann. Überprüfe, ob die App, die du installieren möchtest, sicher und vertrauenswürdig ist, und tippe dann auf "Installieren", um fortzufahren.
 7. Warte, bis die Installation abgeschlossen ist. Dies kann je nach Größe der App und der Leistung deines Handys einige Sekunden oder Minuten dauern.
 8. Sobald die Installation abgeschlossen ist, siehst du eine Benachrichtigung, dass die App erfolgreich installiert wurde. Du kannst nun entweder auf "Öffnen" tippen, um die App direkt zu starten, oder auf "Fertig" tippen, um zum Startbildschirm zurückzukehren.
+
+### Installation Windows (.zip Ordner):
+1. Stelle sicher, dass du ein Entpackungsprogramm auf deinem Computer hast. Wenn nicht, lade ein kostenloses Entpackungsprogramm wie 7-Zip, WinRAR oder WinZip herunter und installiere es.
+2. Suche den .zip-Ordner auf deinem Computer. Du kannst ihn möglicherweise im Download-Ordner oder an einem anderen Ort gespeichert haben.
+3. Klicke mit der rechten Maustaste auf den .zip-Ordner und wähle "Entpacken" oder eine ähnliche Option aus dem Kontextmenü. Dadurch wird der Inhalt des .zip-Ordners extrahiert und in einen neuen Ordner entpackt.
+4. Navigiere zum extrahierten Ordner und suche nach der Casus Castellum.exe-Datei.
+5. Doppelklicke auf die Casus Castellum.exe-Datei, um sie auszuführen. Es kann sein, dass ein Dialogfeld oder eine Sicherheitswarnung angezeigt wird. Falls dies der Fall ist, bestätige, dass du die Datei ausführen möchtest. Nun sollte das Spiel starten
