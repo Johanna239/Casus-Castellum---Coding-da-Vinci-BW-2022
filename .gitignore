@@ -71,8 +71,8 @@
 /Renderings/renderSetup.blend1
 
 # don't ignore .dll and .exe files from builds
-!/[Bb]uilds/*.dll
-!/[Bb]uilds/*.exe
+!/[Bb]uilds/**/*.dll
+!/[Bb]uilds/**/*.exe
 
 
 ### FMOD Unity Integration ###
