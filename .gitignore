@@ -70,6 +70,11 @@
 /Renderings/renderSetup.blend
 /Renderings/renderSetup.blend1
 
+# don't ignore .dll and .exe files from builds
+!/[Bb]uilds/*.dll
+!/[Bb]uilds/*.exe
+
+
 ### FMOD Unity Integration ###
 # Never ignore DLLs in the FMOD subfolder, so make sure that the FMOD-folder is in the correct path.
 !/[Aa]ssets/Plugins/FMOD/**/*.dll
